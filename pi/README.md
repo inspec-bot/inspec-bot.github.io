@@ -22,6 +22,13 @@
 `sudo ./configure --enable-optimizations` </br>
 `sudo make -j 4` </br>
 `sudo make altinstall` </br>
+- check python </br>
+`python3 -V`
+- install pip3 `sudo apt-get install python3-pip -y`
+
+pip3 install opencv-contrib-python
+pip3 install imagezmq
+pip3 install imutils
 
 ## Usage
 
