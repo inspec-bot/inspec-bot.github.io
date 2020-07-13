@@ -18,3 +18,7 @@ wget https://raw.githubusercontent.com/inspecbot/inspecbot.github.io/master/pi/p
 unzip pi-motor-hat.zip
 
 #check address I2C> sudo i2cdetect -y 1
+
+# Enable I2C
+ref~
+- https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c
