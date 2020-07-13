@@ -7,7 +7,7 @@ Ctrl + Z + enter = end python
 
 
 # Paramiko [send ssh by python]
-pip install paramiko
+pip install paramiko 
 ref 
 - https://docs.paramiko.org/en/2.4/
 - https://stackoverflow.com/questions/28411960/execute-a-command-on-remote-machine-in-python
