@@ -16,3 +16,5 @@ mkdir motor-hat
 cd motor-hat
 wget https://raw.githubusercontent.com/inspecbot/inspecbot.github.io/master/pi/pi-motor-hat.zip
 unzip pi-motor-hat.zip
+
+#check address I2C> sudo i2cdetect -y 1
