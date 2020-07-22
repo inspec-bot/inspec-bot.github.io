@@ -24,7 +24,8 @@
 `sudo make altinstall` </br>
 - check python </br>
 `python3 -V`
-- install pip3 `sudo apt-get install python3-pip -y`
+- install pip3 </br>
+`sudo apt-get install python3-pip -y`
 
 pip3 install opencv-contrib-python
 pip3 install imagezmq
