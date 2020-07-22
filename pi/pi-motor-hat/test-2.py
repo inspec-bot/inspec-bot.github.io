@@ -25,16 +25,18 @@ myMotor1.setSpeed(150)
 myMotor2.setSpeed(150)
 # turn on motor
 myMotor1.run(Raspi_MotorHAT.RELEASE);
-
+myMotor2.run(Raspi_MotorHAT.RELEASE);
 
 while (True):
 	print ("Forward! ")
 	myMotor1.run(Raspi_MotorHAT.FORWARD)
-    myMotor2.run(Raspi_MotorHAT.BACKWARD)
+        myMotor2.run(Raspi_MotorHAT.BACKWARD)
+	time.sleep(1.0)
 
 	print ("Backward! ")
 	myMotor1.run(Raspi_MotorHAT.BACKWARD)
-    myMotor2.run(Raspi_MotorHAT.FORWARD)
+        myMotor2.run(Raspi_MotorHAT.FORWARD)
+	time.sleep(1.0)
 
 	print ("Release")
 	myMotor1.run(Raspi_MotorHAT.RELEASE)
