@@ -14,3 +14,5 @@ wget http://downloads.fars-robotics.net/wifi-drivers/8188eu-drivers/8188eu-4.19.
 tar xzf 8188eu-4.19.118-v7-1311.tar.gz
 ./install.sh
 sudo reboot
+
+ref~ https://princepy.com/307/
