@@ -21,6 +21,7 @@ myMotor1 = mh.getMotor(3)
 myMotor2 = mh.getMotor(4)
 
 # set the speed to start, from 0 (off) to 255 (max speed)
+# 40/80 min (unbalance motor)
 myMotor1.setSpeed(150)
 myMotor2.setSpeed(150)
 # turn on motor
@@ -33,6 +34,10 @@ while (True):
         myMotor2.run(Raspi_MotorHAT.BACKWARD)
 	time.sleep(1.0)
 
+	print ("Release")
+	myMotor1.run(Raspi_MotorHAT.RELEASE)
+	time.sleep(1.0)
+	
 	print ("Backward! ")
 	myMotor1.run(Raspi_MotorHAT.BACKWARD)
         myMotor2.run(Raspi_MotorHAT.FORWARD)
