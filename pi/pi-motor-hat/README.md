@@ -18,6 +18,12 @@ wget https://raw.githubusercontent.com/inspecbot/inspecbot.github.io/master/pi/p
 unzip pi-motor-hat.zip
 
 #check address I2C> sudo i2cdetect -y 1
+cd motor-hat
+wget https://raw.githubusercontent.com/inspecbot/inspecbot.github.io/master/pi/pi-motor-hat/left1.py
+
+wget https://raw.githubusercontent.com/inspecbot/inspecbot.github.io/master/pi/pi-motor-hat/stop.py
+
+wget https://raw.githubusercontent.com/inspecbot/inspecbot.github.io/master/pi/pi-motor-hat/right1.py
 
 # Enable I2C
 ref~
