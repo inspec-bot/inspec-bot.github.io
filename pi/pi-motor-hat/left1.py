@@ -15,8 +15,8 @@ mh = Raspi_MotorHAT(addr=0x6f)
 #atexit.register(turnOffMotors)
 
 # motor-config
-myMotor1 = mh.getMotor(3)
-myMotor2 = mh.getMotor(4)
+myMotor1 = mh.getMotor(1)
+myMotor2 = mh.getMotor(3)
 
 # set speed 0 (off) to 255 (max speed) 256/x-1
 # 40/80 min (unbalance motor)
