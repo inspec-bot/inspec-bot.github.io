@@ -15,7 +15,7 @@ mh = Raspi_MotorHAT(addr=0x6f)
 #atexit.register(turnOffMotors)
 
 # motor-config
-myMotor1 = mh.getMotor(3)
+myMotor1 = mh.getMotor(2)
 myMotor2 = mh.getMotor(4)
 
 # set speed 0 (off) to 255 (max speed)
@@ -27,13 +27,13 @@ myMotor1.run(Raspi_MotorHAT.RELEASE);
 myMotor2.run(Raspi_MotorHAT.RELEASE);
 
 while (True):
-	print ("Forward! ")
-	myMotor1.run(Raspi_MotorHAT.FORWARD)
+  print ("Forward! ")
+  myMotor1.run(Raspi_MotorHAT.FORWARD)
   myMotor2.run(Raspi_MotorHAT.BACKWARD)
-	time.sleep(0.5)
+  time.sleep(0.5)
 
-	print ("Release")
-	myMotor1.run(Raspi_MotorHAT.RELEASE)
+  print ("Release")
+  myMotor1.run(Raspi_MotorHAT.RELEASE)
   myMotor2.run(Raspi_MotorHAT.RELEASE)
-	time.sleep(0.5)
+  time.sleep(0.5)
 
