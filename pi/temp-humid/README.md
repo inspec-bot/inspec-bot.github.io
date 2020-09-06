@@ -8,3 +8,6 @@ https://learn.adafruit.com/assets/91727
 sudo pip3 install adafruit-circuitpython-ahtx0
 
 i2c check > sudo i2cdetect -y 1
+
+
+## send get mix 
