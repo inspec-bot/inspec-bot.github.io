@@ -11,3 +11,6 @@ pip install paramiko
 ref 
 - https://docs.paramiko.org/en/2.4/
 - https://stackoverflow.com/questions/28411960/execute-a-command-on-remote-machine-in-python
+
+# Caffe Model [MobileNetSSD_deploy.caffemodel,MobileNetSSD_deploy.prototxt]
+- https://caffe.berkeleyvision.org/model_zoo.html
