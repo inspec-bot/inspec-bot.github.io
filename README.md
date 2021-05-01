@@ -13,3 +13,6 @@ instructions </br>test
 
 ## Back to main repo
 https://github.com/inspecbot/inspecbot.github.io
+
+## LICENSE 
+some part of code may contain specific LICENSE. please check from source link.
